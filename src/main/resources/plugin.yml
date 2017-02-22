@@ -1,0 +1,12 @@
+main: com.rayzr522.delayme.DelayMe
+name: DelayMe
+version: 1.0.0
+description: Runs a command with a slight delay
+author: Rayzr
+#depend: [CreativelyNamedLib]
+#commands:
+#  delayme:
+#    description: DelayMe main command
+#    aliases: [alias1,alias2]
+#    usage: "/delayme [command]"
+#    permission: DelayMe.main
