@@ -3,7 +3,6 @@ name: DelayMe
 version: 1.0.0
 description: Runs a command with a slight delay
 author: Rayzr
-depend: [CreativelyNamedLib]
 commands:
   delayme:
     description: DelayMe main command

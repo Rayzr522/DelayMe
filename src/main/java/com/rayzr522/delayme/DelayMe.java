@@ -34,7 +34,7 @@ public class DelayMe extends JavaPlugin {
                 if (!player.isOnline()) {
                     return;
                 }
-                getServer().dispatchCommand(player.getPlayer(), Arrays.stream(args).collect(Collectors.joining(" ")));
+                getServer().dispatchCommand(player.getPlayer(), Arrays.stream(Arrays.copyOfRange(args, 1, args.length)).collect(Collectors.joining(" ")));
             }
         }.runTaskLater(this, 2L);
 
